@@ -43,6 +43,7 @@ model MjeshtriProfile {
   basePrice   Float
   description String?
   radiusKm    Int      @default(15)
+  avatarUrl   String?
   rating      Float    @default(0)
   totalJobs   Int      @default(0)
   createdAt   DateTime @default(now())
